@@ -23,9 +23,6 @@ BeaconApp
 RealmSwift<br>
 LicensePlist<br>
 
-# デザインパターン
-MVCモデルを使用
-
 # インストール
 <a href="https://apps.apple.com/us/app/beaconapp/id1621993978?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1651968000&h=a42abbe07ca8d443f522aa93f9a7aad7" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
 
