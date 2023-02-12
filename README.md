@@ -31,4 +31,4 @@ MVCモデルを使用
 
 # 開発者
 tokomatokomac@gmail.com<br>
-https://github.com/tokomac?tab=repositories
+https://tokomac.hatenablog.com/entry/BeaconApp-release
