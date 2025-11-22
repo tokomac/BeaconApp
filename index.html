@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeaconApp</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #fff;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            text-align: center;
+        }
+        .lang-switch {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-switch a {
+            color: #007AFF;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+        .lang-switch a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 40px;
+            color: #333;
+        }
+        .card {
+            background-color: #f5f5f5;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 12px;
+            text-decoration: none;
+            display: block;
+            transition: background-color 0.2s;
+        }
+        .card:hover {
+            background-color: #e5e5e5;
+        }
+        .card h2 {
+            font-size: 20px;
+            margin: 0;
+            color: #333;
+        }
+        .card p {
+            font-size: 14px;
+            color: #666;
+            margin: 10px 0 0 0;
+        }
+        .app-icon {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+            border-radius: 22px;
+        }
+        .description {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 12px;
+            color: #999;
+        }
+    </style>
+    <script>
+        // 言語自動判定
+        if (!navigator.language.startsWith('ja')) {
+            window.location.href = 'index-en.html';
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switch">
+            <a href="index.html">日本語</a>
+            <a href="index-en.html">English</a>
+        </div>
+
+        <h1>BeaconApp</h1>
+
+        <p class="description">
+            iBeaconの発信・受信をテストするための開発者向けツールです。<br>
+            Beacon値の登録、QRコードでの共有、受信ログの記録ができます。
+        </p>
+
+        <a href="privacy_policy_ja.html" class="card">
+            <h2>プライバシーポリシー</h2>
+            <p>個人情報の取り扱いについて</p>
+        </a>
+
+        <a href="terms_of_service_ja.html" class="card">
+            <h2>利用規約</h2>
+            <p>アプリの利用条件について</p>
+        </a>
+
+        <a href="contact.html" class="card">
+            <h2>お問い合わせ</h2>
+            <p>ご質問・ご要望はこちら</p>
+        </a>
+
+        <footer>
+            &copy; 2024 BeaconApp. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
